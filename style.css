@@ -1,0 +1,60 @@
+*{
+    font-family: 'Handlee', cursive;
+    /* color: rgb(196, 196, 196); */
+    color: black;
+}
+.satu{
+    background-color: lightcoral;
+    padding-bottom: 100vh;;
+}
+.dua{
+    background-color: lightblue;
+    padding-bottom: 100vh;
+}
+.tiga{
+    background-color: lightgreen;
+    padding-bottom: 100vh;
+}
+.empat{
+    background-color: rgb(250, 250, 161);
+    padding-bottom: 100vh;
+}
+.lima{
+    background-color: lightslategray;
+    padding-bottom: 100vh;
+}
+
+.menu{
+    z-index: 1;
+    bottom: 0%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 243, 222, 0.8);
+    border-radius: 15px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    display: flex;
+}
+.menu a,ion-icon{
+    position: flex;
+    width: 80%;
+    height: 35px;
+    width: 100%;
+    transition: height 0.1s;
+}
+.menu a,ion-icon:hover{
+    position: flex;
+    width: 80%;
+    height: 38px;
+    width: 100%;
+}
+.okk{
+    position: flex;
+    width: 80%;
+    height: 38px;
+    width: 100%;
+
+}
